@@ -1,0 +1,33 @@
+{
+  "data": [ 
+    {
+      "headTitle1": "Mentor",
+      "type": "headtitle"
+    },
+        {
+          "title": "Dashboard", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/mentor/default"
+        },
+        {
+          "title": "Profile", "icon": "users", "type": "link",  "bookmark": true, "active": false,   "path": "/mentor/profile"
+        },
+        {
+          "title": "Mentorship", "icon": "users", "type": "link",  "bookmark": true, "active": false,   "path": "/mentor/module"
+        },
+        {
+          "title": "Guidelines", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/mentor/default"
+        },
+        {
+          "title": "Directory", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/mentor/default"
+        },
+        {
+          "title": "Resources", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/mentor/default"
+        },
+        {
+          "title": "Forum", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/mentor/default"
+        },
+        {
+          "title": "Notifications", "icon": "bell", "type": "link",  "bookmark": true, "active": false,   "path": "/mentor/module"
+        }
+
+      ]
+}

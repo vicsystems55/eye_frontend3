@@ -1,0 +1,38 @@
+{
+  "data": [ 
+    {
+      "headTitle1": "Judge",
+      "type": "headtitle"
+    },
+        {
+          "title": "Dashboard", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/judge/default"
+        },
+        {
+          "title": "Profile", "icon": "users", "type": "link",  "bookmark": true, "active": false,   "path": "/judge/profile"
+        },
+        {
+          "title": "Submissions", "icon": "home", "type": "sub",  "bookmark": true, "active": false,   "path": "/judge/module","children": [
+            {
+              "path": "/users/profile",
+              "title": "New Submissions",
+              "type": "link"
+            },
+            {
+              "path": "/users/edit",
+              "title": "Reviewed",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "title": "Directory", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/judge/default"
+        },
+        {
+          "title": "Resources", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/judge/default"
+        },
+        {
+          "title": "Notifications", "icon": "bell", "type": "link",  "bookmark": true, "active": false,   "path": "/judge/module"
+        }
+
+      ]
+}

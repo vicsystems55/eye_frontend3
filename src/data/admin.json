@@ -1,0 +1,44 @@
+{
+  "data": [ 
+    {
+      "headTitle1": "Administrator",
+      "type": "headtitle"
+    },
+        {
+          "title": "Dashboard", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/admin/default"
+        },
+        {
+          "title": "Members", "icon": "users", "type": "link",  "bookmark": true, "active": false,   "path": "/admin/members"
+        },
+        {
+          "title": "Module", "icon": "home", "type": "sub",  "bookmark": true, "active": false,   "path": "/admin/module","children": [
+            {
+              "path": "/admin/create-module",
+              "title": "Create Module",
+              "type": "link"
+            },
+            {
+              "path": "/admin/modules",
+              "title": "All Modules",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "title": "Directory", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/admin/default"
+        },
+        {
+          "title": "Mentorship", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/admin/default"
+        },
+        {
+          "title": "Resources", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/admin/default"
+        },
+        {
+          "title": "Notifications", "icon": "bell", "type": "link",  "bookmark": true, "active": false,   "path": "/admin/notifications"
+        },
+        {
+          "title": "Settings", "icon": "settings", "type": "link",  "bookmark": true, "active": false,   "path": "/admin/module"
+        }
+
+      ]
+}

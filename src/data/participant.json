@@ -1,0 +1,39 @@
+{
+  "data": [ 
+    {
+      "headTitle1": "Participant",
+      "type": "headtitle"
+    },
+        {
+          "title": "Dashboard", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/participant/default"
+        },
+        {
+          "title": "Profile", "icon": "users", "type": "link",  "bookmark": true, "active": false,   "path": "/participant/profile"
+        },
+        {
+          "title": "Mentorship", "icon": "users", "type": "link",  "bookmark": true, "active": false,   "path": "/participant/module"
+        },
+        {
+            "title": "Modules", "icon": "users", "type": "link",  "bookmark": true, "active": false,   "path": "/participant/modules"
+        },
+        {
+          "title": "Directory", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/participant/default"
+        },
+        {
+          "title": "Reports", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/participant/default"
+        },
+        {
+            "title": "Guidelines", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/participant/guidelines"
+        },
+        {
+          "title": "Resources", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/participant/default"
+        },
+        {
+          "title": "Forum", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/participant/default"
+        },
+        {
+          "title": "Notifications", "icon": "bell", "type": "link",  "bookmark": true, "active": false,   "path": "/participant/notifications"
+        }
+
+      ]
+}

@@ -1,0 +1,36 @@
+{
+  "data": [ 
+    {
+      "headTitle1": "Participant",
+      "type": "headtitle"
+    },
+        {
+          "title": "Dashboard", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/dashboard/default"
+        },
+        {
+          "title": "Profile", "icon": "user", "type": "link",  "bookmark": true, "active": false,   "path": "/dashboard/module"
+        },
+        {
+          "title": "Mentorship", "icon": "home", "type": "link",  "bookmark": true, "active": false,   "path": "/dashboard/module"
+        },
+        {
+          "title": "Forum", "icon": "home", "type": "link",  "bookmark": true, "active": false,   "path": "/dashboard/module"
+        },
+        {
+          "title": "Modules", "icon": "home", "type": "link",  "bookmark": true, "active": false,   "path": "/dashboard/module"
+        },
+        {
+          "title": "Reports", "icon": "home", "type": "link",  "bookmark": true, "active": false,   "path": "/dashboard/module"
+        },
+        {
+          "title": "Guidelines", "icon": "home", "type": "link",  "bookmark": true, "active": false,   "path": "/dashboard/module"
+        },
+        {
+          "title": "Resources", "icon": "home", "type": "link",  "bookmark": true, "active": false,   "path": "/dashboard/module"
+        },
+        {
+          "title": "Notifications", "icon": "bell", "type": "link",  "bookmark": true, "active": false,   "path": "/dashboard/module"
+        }
+
+      ]
+}

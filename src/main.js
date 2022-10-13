@@ -7,8 +7,20 @@ import { store } from './store';
 import VueFeather from 'vue-feather';
 import Toasted from 'vue-toasted';
 import PxCard  from './components/Pxcard.vue'
+import FunctionalCalendar from 'vue-functional-calendar';
+
+
+import VueApexCharts from 'vue-apexcharts';
+
 Vue.component(PxCard.name, PxCard)
 
+Vue.use(require('vue-chartist'));
+
+Vue.component('apexchart', VueApexCharts);
+
+Vue.use(FunctionalCalendar, {
+  dayNames: ['M', 'T', 'W', 'T', 'F', 'S', 'S']
+});
 // Import Theme scss
 import './assets/scss/app.scss'
 

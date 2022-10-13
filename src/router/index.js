@@ -13,7 +13,7 @@ import CreateModule from '../pages/admin/CreateModule'
 
 import Modules from '../pages/common/Modules'
 
-// import Member from '../pages/admin/Member'
+import Member from '../pages/admin/Member'
 
 import Profile from '../pages/common/Profile'
 

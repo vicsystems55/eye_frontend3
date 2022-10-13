@@ -19,7 +19,7 @@
                     <div class="whatsnew-btn">
                       <a  class="btn btn-primary">Pay Fee</a>
                     </div>
-
+<!-- 
                                                                   <paystack
 
                                           
@@ -37,7 +37,7 @@
                                             >
                                                 <i class="fas fa-money-bill-alt"></i>
                                                 Make Payment
-                                            </paystack>
+                                            </paystack> -->
                   </div>
                 </div>
                 <div class="badge-groups">
@@ -614,10 +614,9 @@
     fgColor: primary,
   });
 
-  import paystack from "vue-paystack";
   export default {
     components:{
-         paystack,
+         
     },
     data() {
       return {

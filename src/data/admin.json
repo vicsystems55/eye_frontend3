@@ -28,7 +28,7 @@
           "title": "Directory", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/admin/default"
         },
         {
-          "title": "Mentorship", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/admin/default"
+          "title": "Mentorship", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/admin/mentorship"
         },
         {
           "title": "Resources", "icon": "home", "type": "link", "badgeType": "primary", "badgeValue": "", "active": false,  "path": "/admin/default"

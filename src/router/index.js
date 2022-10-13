@@ -7,11 +7,13 @@ import SamplePage from '../pages/sample_page'
 
 import Members from '../pages/admin/Members'
 
+import Mentorship from '../pages/admin/Mentorship'
+
 import CreateModule from '../pages/admin/CreateModule'
 
 import Modules from '../pages/common/Modules'
 
-import Member from '../pages/admin/Member'
+// import Member from '../pages/admin/Member'
 
 import Profile from '../pages/common/Profile'
 
@@ -104,6 +106,14 @@ const routes = [
       component: Members,
       meta: {
         title: 'Admin | Members',
+      }
+    },
+    {
+      path: 'mentorship',
+      name: 'mentorship',
+      component: Mentorship,
+      meta: {
+        title: 'Admin | Mentorship',
       }
     },
     {

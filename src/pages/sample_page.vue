@@ -918,7 +918,7 @@
               enabled: false,
             },
             labels: [
-              'Sunday',
+              'Creative',
               'Monday',
               'Tuesday',
               'Wednesday',
@@ -969,7 +969,7 @@
           series: [
             {
               name: 'Market value',
-              data: [20, 100, 40, 30, 50, 80, 33],
+              data: [100, 100, 100, 100, 100, 100, 100],
             },
           ],
         },

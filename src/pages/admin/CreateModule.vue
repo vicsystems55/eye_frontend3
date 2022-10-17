@@ -247,7 +247,7 @@
             })
             .then((response) =>{
 
-                toast.success('Profile picture Updated');
+                // toast.success('Profile picture Updated');
 
                 console.log(response)
             })

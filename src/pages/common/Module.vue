@@ -313,7 +313,7 @@
 									</b-modal>
 
 									<b-button class="d-none" id="mod" v-b-modal.modal-10>Edit Quiz</b-button>
-							<div v-for="quiz,key in quizes" :key="quiz.index" class="card">
+							<div v-for="quiz in quizes" :key="quiz.index" class="card">
 								<div class="card-body">
 								
 
@@ -576,8 +576,7 @@
 		exercise: '',
 		category: '',
 		question_type: '',
-		question: '',
-		description: '',
+
 		prefered_answer: '',
 
 		userDatax: [],
@@ -630,7 +629,7 @@
 		})
 		.then((response) =>{
 
-			toast.success('Profile picture Updated');
+			// toast.success('Profile picture Updated');
 
 			console.log(response)
 		})
@@ -883,7 +882,7 @@
 
 			this.loadingw = false,
 
-			worksheets
+			// worksheets
 
 			console.log(response)
 
